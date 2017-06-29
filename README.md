@@ -1,6 +1,6 @@
 # RetoIsban
 
-Se ha realizado una pequeña aplicación que presenta el feed RSS de la sección de ciencia de El País. Para la realización de la misma se ha usado una arquitectura MVP, que facilita la modificación y compresión del código, así como su testeabilidad.
+Se ha realizado una pequeña aplicación que presenta el feed RSS de la sección de ciencia de El País. Para la realización de la misma se ha usado una arquitectura MVP, que facilita la modificación y comprensión del código, así como su testeabilidad.
 
 La aplicación está escrita completamente en Swift ya que ha acelerado el desarrollo de la prueba técnica en sobremedida. Además de los requerimientos nombrados en el readme del reto, se ha añadido una forma de cacheo muy primitiva, pero fácimente aplicable a cualquier objeto.
 
