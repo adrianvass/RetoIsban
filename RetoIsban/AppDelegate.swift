@@ -13,9 +13,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        // The correct way to do this is to use a dependency injection framework, or build your own solution.
+        // Here we are just going to initialize our application components.
+        
+        let cacheProvider = CacheProvider<[FeedItem]>()
+        let feedRepo = FeedTableViewRepository(cacheProvider: cacheProvider)
+        let feedTablePresenter = FeedTableViewPresenter(feedRepo: feedRepo)
+        let feedTableController = FeedTableViewController(presenter: feedTablePresenter)
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = UINavigationController(rootViewController: feedTableController)
+        window?.makeKeyAndVisible()
+        
         return true
     }
 

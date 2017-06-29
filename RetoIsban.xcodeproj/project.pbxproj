@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CBBB82508175D810187ABD7 /* Pods_RetoIsbanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5726C63FABC3F665812682BB /* Pods_RetoIsbanTests.framework */; };
+		543F7C701F05699500352056 /* FeedDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 543F7C6F1F05699500352056 /* FeedDetailView.xib */; };
+		543F7C721F0569A200352056 /* FeedDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543F7C711F0569A200352056 /* FeedDetailViewController.swift */; };
+		5489B5D81F0517D2007DACB0 /* RSSItemCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5489B5D71F0517D2007DACB0 /* RSSItemCellViewModel.swift */; };
+		5489B5DA1F05186B007DACB0 /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5489B5D91F05186B007DACB0 /* FeedTableViewController.swift */; };
+		5489B5DC1F05187C007DACB0 /* FeedTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5489B5DB1F05187C007DACB0 /* FeedTableView.xib */; };
+		5489B5E11F051B1E007DACB0 /* FeedItemCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5489B5E01F051B1E007DACB0 /* FeedItemCellView.swift */; };
+		5489B5E31F051B2D007DACB0 /* FeedItemCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5489B5E21F051B2D007DACB0 /* FeedItemCellView.xib */; };
+		5489B5E81F051D4D007DACB0 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5489B5E71F051D4D007DACB0 /* FeedItem.swift */; };
+		5489B5EC1F051DC1007DACB0 /* FeedTableViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5489B5EB1F051DC1007DACB0 /* FeedTableViewPresenter.swift */; };
+		5489B5EE1F051EE9007DACB0 /* FeedTableViewRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5489B5ED1F051EE9007DACB0 /* FeedTableViewRepository.swift */; };
+		5489B5F01F054959007DACB0 /* CacheProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5489B5EF1F054959007DACB0 /* CacheProvider.swift */; };
 		54EF6AD81F04FE8B006BCA09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EF6AD71F04FE8B006BCA09 /* AppDelegate.swift */; };
-		54EF6ADA1F04FE8B006BCA09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EF6AD91F04FE8B006BCA09 /* ViewController.swift */; };
-		54EF6ADD1F04FE8B006BCA09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54EF6ADB1F04FE8B006BCA09 /* Main.storyboard */; };
 		54EF6ADF1F04FE8B006BCA09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54EF6ADE1F04FE8B006BCA09 /* Assets.xcassets */; };
 		54EF6AE21F04FE8B006BCA09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54EF6AE01F04FE8B006BCA09 /* LaunchScreen.storyboard */; };
 		54EF6AED1F04FE8B006BCA09 /* RetoIsbanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EF6AEC1F04FE8B006BCA09 /* RetoIsbanTests.swift */; };
 		54EF6AF81F04FE8B006BCA09 /* RetoIsbanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EF6AF71F04FE8B006BCA09 /* RetoIsbanUITests.swift */; };
+		690E72375A3B67D011C7514F /* Pods_RetoIsbanUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 217EBD759530B65F8AF5539B /* Pods_RetoIsbanUITests.framework */; };
+		95AB79E3DD6A8C82B47FF255 /* Pods_RetoIsban.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F136BB983B9484A60F8C714 /* Pods_RetoIsban.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +46,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E113132F12BB6FA75059659 /* Pods-RetoIsbanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetoIsbanTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetoIsbanTests/Pods-RetoIsbanTests.debug.xcconfig"; sourceTree = "<group>"; };
+		217EBD759530B65F8AF5539B /* Pods_RetoIsbanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetoIsbanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35CD3C5FB3A93A3830DAAAC9 /* Pods-RetoIsban.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetoIsban.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetoIsban/Pods-RetoIsban.release.xcconfig"; sourceTree = "<group>"; };
+		454C77314FEA68E1563ECE8A /* Pods-RetoIsbanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetoIsbanTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetoIsbanTests/Pods-RetoIsbanTests.release.xcconfig"; sourceTree = "<group>"; };
+		45D25D4ACE9D408766A0E76F /* Pods-RetoIsban.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetoIsban.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetoIsban/Pods-RetoIsban.debug.xcconfig"; sourceTree = "<group>"; };
+		543F7C6F1F05699500352056 /* FeedDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedDetailView.xib; sourceTree = "<group>"; };
+		543F7C711F0569A200352056 /* FeedDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedDetailViewController.swift; sourceTree = "<group>"; };
+		5489B5D71F0517D2007DACB0 /* RSSItemCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSSItemCellViewModel.swift; sourceTree = "<group>"; };
+		5489B5D91F05186B007DACB0 /* FeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
+		5489B5DB1F05187C007DACB0 /* FeedTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedTableView.xib; sourceTree = "<group>"; };
+		5489B5E01F051B1E007DACB0 /* FeedItemCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedItemCellView.swift; sourceTree = "<group>"; };
+		5489B5E21F051B2D007DACB0 /* FeedItemCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedItemCellView.xib; sourceTree = "<group>"; };
+		5489B5E71F051D4D007DACB0 /* FeedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		5489B5EB1F051DC1007DACB0 /* FeedTableViewPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewPresenter.swift; sourceTree = "<group>"; };
+		5489B5ED1F051EE9007DACB0 /* FeedTableViewRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewRepository.swift; sourceTree = "<group>"; };
+		5489B5EF1F054959007DACB0 /* CacheProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheProvider.swift; sourceTree = "<group>"; };
 		54EF6AD41F04FE8B006BCA09 /* RetoIsban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetoIsban.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54EF6AD71F04FE8B006BCA09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		54EF6AD91F04FE8B006BCA09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		54EF6ADC1F04FE8B006BCA09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		54EF6ADE1F04FE8B006BCA09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54EF6AE11F04FE8B006BCA09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54EF6AE31F04FE8B006BCA09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +73,10 @@
 		54EF6AF31F04FE8B006BCA09 /* RetoIsbanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetoIsbanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54EF6AF71F04FE8B006BCA09 /* RetoIsbanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetoIsbanUITests.swift; sourceTree = "<group>"; };
 		54EF6AF91F04FE8B006BCA09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5726C63FABC3F665812682BB /* Pods_RetoIsbanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetoIsbanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85C529C2D8321B3CD6322102 /* Pods-RetoIsbanUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetoIsbanUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetoIsbanUITests/Pods-RetoIsbanUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F136BB983B9484A60F8C714 /* Pods_RetoIsban.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetoIsban.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3E1788A4859516D63A0441C /* Pods-RetoIsbanUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetoIsbanUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetoIsbanUITests/Pods-RetoIsbanUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95AB79E3DD6A8C82B47FF255 /* Pods_RetoIsban.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CBBB82508175D810187ABD7 /* Pods_RetoIsbanTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +100,101 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				690E72375A3B67D011C7514F /* Pods_RetoIsbanUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		543F7C6E1F05696400352056 /* ItemDetail */ = {
+			isa = PBXGroup;
+			children = (
+				543F7C731F056D3800352056 /* View */,
+			);
+			name = ItemDetail;
+			sourceTree = "<group>";
+		};
+		543F7C731F056D3800352056 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				543F7C6F1F05699500352056 /* FeedDetailView.xib */,
+				543F7C711F0569A200352056 /* FeedDetailViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5489B5D51F051742007DACB0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5489B5E71F051D4D007DACB0 /* FeedItem.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5489B5D61F05174E007DACB0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5489B5E61F051CC7007DACB0 /* RSSItemCell */,
+				5489B5E51F051CA8007DACB0 /* RSSFeedTableView */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5489B5DD1F0518D3007DACB0 /* FeedTable */ = {
+			isa = PBXGroup;
+			children = (
+				5489B5EA1F051DA1007DACB0 /* Presentation */,
+				5489B5E91F051D97007DACB0 /* Data */,
+				5489B5D51F051742007DACB0 /* Model */,
+				5489B5D61F05174E007DACB0 /* View */,
+			);
+			name = FeedTable;
+			sourceTree = "<group>";
+		};
+		5489B5E51F051CA8007DACB0 /* RSSFeedTableView */ = {
+			isa = PBXGroup;
+			children = (
+				5489B5DB1F05187C007DACB0 /* FeedTableView.xib */,
+				5489B5D91F05186B007DACB0 /* FeedTableViewController.swift */,
+			);
+			name = RSSFeedTableView;
+			sourceTree = "<group>";
+		};
+		5489B5E61F051CC7007DACB0 /* RSSItemCell */ = {
+			isa = PBXGroup;
+			children = (
+				5489B5E21F051B2D007DACB0 /* FeedItemCellView.xib */,
+				5489B5E01F051B1E007DACB0 /* FeedItemCellView.swift */,
+				5489B5D71F0517D2007DACB0 /* RSSItemCellViewModel.swift */,
+			);
+			name = RSSItemCell;
+			sourceTree = "<group>";
+		};
+		5489B5E91F051D97007DACB0 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5489B5ED1F051EE9007DACB0 /* FeedTableViewRepository.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		5489B5EA1F051DA1007DACB0 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				5489B5EB1F051DC1007DACB0 /* FeedTableViewPresenter.swift */,
+			);
+			name = Presentation;
+			sourceTree = "<group>";
+		};
+		5489B5F11F054E7F007DACB0 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				5489B5EF1F054959007DACB0 /* CacheProvider.swift */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
 		54EF6ACB1F04FE8B006BCA09 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +202,8 @@
 				54EF6AEB1F04FE8B006BCA09 /* RetoIsbanTests */,
 				54EF6AF61F04FE8B006BCA09 /* RetoIsbanUITests */,
 				54EF6AD51F04FE8B006BCA09 /* Products */,
+				B005C6F61588447FBC159C1C /* Pods */,
+				63797DC85EB0AC3D58B2963D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +220,12 @@
 		54EF6AD61F04FE8B006BCA09 /* RetoIsban */ = {
 			isa = PBXGroup;
 			children = (
+				5489B5F11F054E7F007DACB0 /* Lib */,
+				543F7C6E1F05696400352056 /* ItemDetail */,
+				5489B5DD1F0518D3007DACB0 /* FeedTable */,
 				54EF6AD71F04FE8B006BCA09 /* AppDelegate.swift */,
-				54EF6AD91F04FE8B006BCA09 /* ViewController.swift */,
-				54EF6ADB1F04FE8B006BCA09 /* Main.storyboard */,
-				54EF6ADE1F04FE8B006BCA09 /* Assets.xcassets */,
 				54EF6AE01F04FE8B006BCA09 /* LaunchScreen.storyboard */,
+				54EF6ADE1F04FE8B006BCA09 /* Assets.xcassets */,
 				54EF6AE31F04FE8B006BCA09 /* Info.plist */,
 			);
 			path = RetoIsban;
@@ -125,6 +249,29 @@
 			path = RetoIsbanUITests;
 			sourceTree = "<group>";
 		};
+		63797DC85EB0AC3D58B2963D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F136BB983B9484A60F8C714 /* Pods_RetoIsban.framework */,
+				5726C63FABC3F665812682BB /* Pods_RetoIsbanTests.framework */,
+				217EBD759530B65F8AF5539B /* Pods_RetoIsbanUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B005C6F61588447FBC159C1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45D25D4ACE9D408766A0E76F /* Pods-RetoIsban.debug.xcconfig */,
+				35CD3C5FB3A93A3830DAAAC9 /* Pods-RetoIsban.release.xcconfig */,
+				1E113132F12BB6FA75059659 /* Pods-RetoIsbanTests.debug.xcconfig */,
+				454C77314FEA68E1563ECE8A /* Pods-RetoIsbanTests.release.xcconfig */,
+				85C529C2D8321B3CD6322102 /* Pods-RetoIsbanUITests.debug.xcconfig */,
+				A3E1788A4859516D63A0441C /* Pods-RetoIsbanUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +279,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 54EF6AFC1F04FE8B006BCA09 /* Build configuration list for PBXNativeTarget "RetoIsban" */;
 			buildPhases = (
+				950E9D74144E33BEEF6889D4 /* [CP] Check Pods Manifest.lock */,
 				54EF6AD01F04FE8B006BCA09 /* Sources */,
 				54EF6AD11F04FE8B006BCA09 /* Frameworks */,
 				54EF6AD21F04FE8B006BCA09 /* Resources */,
+				647E4CE375E3D53E5E59E836 /* [CP] Embed Pods Frameworks */,
+				274CE2D1EEACEC62D4340A95 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +299,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 54EF6AFF1F04FE8B006BCA09 /* Build configuration list for PBXNativeTarget "RetoIsbanTests" */;
 			buildPhases = (
+				4CF8157943C1AB82C9265155 /* [CP] Check Pods Manifest.lock */,
 				54EF6AE41F04FE8B006BCA09 /* Sources */,
 				54EF6AE51F04FE8B006BCA09 /* Frameworks */,
 				54EF6AE61F04FE8B006BCA09 /* Resources */,
+				CBC82CA468CB2CA4147A1DA8 /* [CP] Embed Pods Frameworks */,
+				034E01263B4540FFD134AE6F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +320,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 54EF6B021F04FE8B006BCA09 /* Build configuration list for PBXNativeTarget "RetoIsbanUITests" */;
 			buildPhases = (
+				31383E408DDFE3C0076F4E77 /* [CP] Check Pods Manifest.lock */,
 				54EF6AEF1F04FE8B006BCA09 /* Sources */,
 				54EF6AF01F04FE8B006BCA09 /* Frameworks */,
 				54EF6AF11F04FE8B006BCA09 /* Resources */,
+				2E7F2AA2E246D7808AF3B68F /* [CP] Embed Pods Frameworks */,
+				D94103D4525D94D1A0CABD10 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,7 +390,9 @@
 			files = (
 				54EF6AE21F04FE8B006BCA09 /* LaunchScreen.storyboard in Resources */,
 				54EF6ADF1F04FE8B006BCA09 /* Assets.xcassets in Resources */,
-				54EF6ADD1F04FE8B006BCA09 /* Main.storyboard in Resources */,
+				5489B5DC1F05187C007DACB0 /* FeedTableView.xib in Resources */,
+				543F7C701F05699500352056 /* FeedDetailView.xib in Resources */,
+				5489B5E31F051B2D007DACB0 /* FeedItemCellView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +412,158 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		034E01263B4540FFD134AE6F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RetoIsbanTests/Pods-RetoIsbanTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		274CE2D1EEACEC62D4340A95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RetoIsban/Pods-RetoIsban-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E7F2AA2E246D7808AF3B68F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RetoIsbanUITests/Pods-RetoIsbanUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31383E408DDFE3C0076F4E77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4CF8157943C1AB82C9265155 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		647E4CE375E3D53E5E59E836 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RetoIsban/Pods-RetoIsban-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		950E9D74144E33BEEF6889D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CBC82CA468CB2CA4147A1DA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RetoIsbanTests/Pods-RetoIsbanTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D94103D4525D94D1A0CABD10 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RetoIsbanUITests/Pods-RetoIsbanUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		54EF6AD01F04FE8B006BCA09 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54EF6ADA1F04FE8B006BCA09 /* ViewController.swift in Sources */,
+				5489B5F01F054959007DACB0 /* CacheProvider.swift in Sources */,
+				5489B5D81F0517D2007DACB0 /* RSSItemCellViewModel.swift in Sources */,
+				5489B5DA1F05186B007DACB0 /* FeedTableViewController.swift in Sources */,
+				5489B5EC1F051DC1007DACB0 /* FeedTableViewPresenter.swift in Sources */,
 				54EF6AD81F04FE8B006BCA09 /* AppDelegate.swift in Sources */,
+				5489B5E81F051D4D007DACB0 /* FeedItem.swift in Sources */,
+				5489B5EE1F051EE9007DACB0 /* FeedTableViewRepository.swift in Sources */,
+				543F7C721F0569A200352056 /* FeedDetailViewController.swift in Sources */,
+				5489B5E11F051B1E007DACB0 /* FeedItemCellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +599,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		54EF6ADB1F04FE8B006BCA09 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				54EF6ADC1F04FE8B006BCA09 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		54EF6AE01F04FE8B006BCA09 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -412,6 +707,7 @@
 		};
 		54EF6AFD1F04FE8B006BCA09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45D25D4ACE9D408766A0E76F /* Pods-RetoIsban.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RetoIsban/Info.plist;
@@ -424,6 +720,7 @@
 		};
 		54EF6AFE1F04FE8B006BCA09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35CD3C5FB3A93A3830DAAAC9 /* Pods-RetoIsban.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RetoIsban/Info.plist;
@@ -436,6 +733,7 @@
 		};
 		54EF6B001F04FE8B006BCA09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E113132F12BB6FA75059659 /* Pods-RetoIsbanTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +748,7 @@
 		};
 		54EF6B011F04FE8B006BCA09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 454C77314FEA68E1563ECE8A /* Pods-RetoIsbanTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +763,7 @@
 		};
 		54EF6B031F04FE8B006BCA09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85C529C2D8321B3CD6322102 /* Pods-RetoIsbanUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = RetoIsbanUITests/Info.plist;
@@ -477,6 +777,7 @@
 		};
 		54EF6B041F04FE8B006BCA09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3E1788A4859516D63A0441C /* Pods-RetoIsbanUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = RetoIsbanUITests/Info.plist;
@@ -507,6 +808,7 @@
 				54EF6AFE1F04FE8B006BCA09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54EF6AFF1F04FE8B006BCA09 /* Build configuration list for PBXNativeTarget "RetoIsbanTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +817,7 @@
 				54EF6B011F04FE8B006BCA09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54EF6B021F04FE8B006BCA09 /* Build configuration list for PBXNativeTarget "RetoIsbanUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +826,7 @@
 				54EF6B041F04FE8B006BCA09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,24 @@
+PODS:
+  - FeedKit (6.1.0)
+  - Kingfisher (3.5.1)
+
+DEPENDENCIES:
+  - FeedKit (from `https://github.com/nmdias/FeedKit.git`)
+  - Kingfisher
+
+EXTERNAL SOURCES:
+  FeedKit:
+    :git: https://github.com/nmdias/FeedKit.git
+
+CHECKOUT OPTIONS:
+  FeedKit:
+    :commit: 151545794603648426dad2c2c4b27f5ec12fd7c5
+    :git: https://github.com/nmdias/FeedKit.git
+
+SPEC CHECKSUMS:
+  FeedKit: fa9166508140da60accd6a06eb2c527828c41eca
+  Kingfisher: 12eeffeef42ea45b68c5e5acfe8ba9005b713ab4
+
+PODFILE CHECKSUM: b594844c51297d50e6e60b54fa4fcaa00e878967
+
+COCOAPODS: 1.2.0

@@ -1,0 +1,6 @@
+framework module Pods_RetoIsbanUITests {
+  umbrella header "Pods-RetoIsbanUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

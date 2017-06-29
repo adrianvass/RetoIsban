@@ -1,0 +1,6 @@
+framework module Pods_RetoIsbanTests {
+  umbrella header "Pods-RetoIsbanTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
